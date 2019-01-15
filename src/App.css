@@ -1,32 +1,71 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222222;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.topHeader {
+  background-color: #3BA6D8;
+  height: 50px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home {
+  float: left;
+  padding: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.directory {
+  float: right;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  width: 70%;
+  background-color: #858688;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  padding: 30px;
 }
+#counter {
+  float: right;
+}
+.buttonBox {
+  width: 70%;
+  background-color: #222222;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 30px;
+}
+#previous {
+  float: left;
+  text-decoration: none;
+  color: #4C4D4D;
+}
+button {
+  background-color: #3BA6D8;
+  color: black;
+  font-size: 16px;
+  border-radius: 9999em;
+  border: none;
+}
+#edit {
+  float: left;
+  margin-left: 33%;
+}
+#delete {
+  float: left;
+  margin-left: 10px;
+}
+#new {
+  float: left;
+  margin-left: 10px;
+}
+#next {
+  text-decoration: none;
+  color: #4C4D4D;
+  float: right;
+}
+/* strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline #59B1DB; */
